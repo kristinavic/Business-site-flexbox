@@ -10,9 +10,6 @@ body {
 /* -- HEADER -- */
 
 header {
-    /* display: flex;
-    flex-direction: column; 
-    width: 100%; */
     position: fixed; 
     top: 0;
     width: 100%;
@@ -30,6 +27,7 @@ header a {
     text-decoration: none;
     color: #4A4947;
     margin: 0;
+    display: flex;
 }
 
 .logo {
@@ -40,7 +38,7 @@ header a {
 
 .navbar {
     display: flex;
-    background-color: #ffc7b9;    
+    /* background-color: #ffc7b9;     */
     height: 5.5rem; 
     padding: 0;
     font-size: 1.25rem;
@@ -87,7 +85,7 @@ footer {
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         height: 3.5rem;
         font-size: 1rem;
         justify-content: center;
@@ -113,7 +111,7 @@ footer {
 /* mobile breakpoint */
 @media only screen and (max-width: 480px) {
     .navbar {
-        background-color: darkorange;
+        /* background-color: darkorange; */
         height: 2rem; 
         padding: 0;
         justify-content: center;
@@ -149,3 +147,5 @@ footer {
         height: 2rem;
     }
 } 
+
+/* naslednjič: v mobile viewpoint uredi pozicioniranje ikon u navbari bolj na sredino */
