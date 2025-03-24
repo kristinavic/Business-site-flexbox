@@ -82,6 +82,12 @@ footer {
     bottom: 0;
 }
 
+@media only screen and (min-width: 768px) {
+    .main-content {
+        top: 5.5rem;
+    }
+}
+
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
     .navbar {
@@ -106,6 +112,9 @@ footer {
         width: 100%;
     }
 
+    .main-content {
+        top:3.5rem;
+    }
 }
 
 /* mobile breakpoint */
@@ -115,6 +124,9 @@ footer {
         height: 2rem; 
         padding: 0;
         justify-content: center;
+    }
+    .main-content {
+        top: 2rem;
     }
 
     .desktop {
@@ -148,4 +160,62 @@ footer {
     }
 } 
 
-/* naslednjič: v mobile viewpoint uredi pozicioniranje ikon u navbari bolj na sredino */
+.main-content {
+    position: relative;
+}
+
+.welcome {
+    display: flex;
+    position: relative;
+    height: 45rem;
+    width: 100%;
+    background-image: url("../images/leathercraft.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.intro h1, p {    
+    color: #FAF7F0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.intro {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro h1 {
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+.content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content p {
+    opacity: 0.8;
+    padding: 0 0.25rem;
+}
+
+.content a {    
+    color:#FAF7F0;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
