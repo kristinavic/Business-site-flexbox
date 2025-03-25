@@ -1,9 +1,10 @@
-body {
+body, html {
     font-family: "QuickSand", sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     background-color: #FAF7F0;
+    color: #4A4947;
     margin: 0;
 }
 
@@ -15,6 +16,7 @@ header {
     width: 100%;
     z-index: 100;
     text-transform: uppercase;
+    background-color: #FAF7F0;
 }
 
 header div {
@@ -257,4 +259,48 @@ footer {
     .content p:first-child {
         display: none;
     }
+}
+
+
+
+/* PORTFOLIO SECTION */
+
+#portfolio {
+    margin: 3rem;
+}
+
+#portfolio h2 {    
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#portfolio .products {
+    display: flex;
+}
+
+#portfolio .product-tab {
+    height: 30rem;
+    width: 20rem;
+    padding: 1rem;
+}
+
+#portfolio .product-tab:hover {
+    /* filter: brightness(120%); */
+    filter: brightness(120%) saturate(120%);
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+#portfolio .product-img {
+    height: 20rem;
+    width: 15rem;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .product-name {
+    align-items: baseline;
 }
