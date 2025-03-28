@@ -170,9 +170,22 @@ footer {
 }
 
 
+.section {
+    margin: 3rem 2rem;
+    padding: 3rem 1rem;
+}
+
 .section-header {
     margin: 3rem 0;
 }
+
+/* tablet breakpoint */
+@media only screen and (max-width: 768px) {
+    .section {
+        padding: 1rem 0.5rem;
+    }
+}
+
 
 
 
@@ -232,6 +245,8 @@ footer {
 }
 
 
+
+
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
     .intro {
@@ -270,10 +285,6 @@ footer {
 
 /* PORTFOLIO SECTION */
 
-#portfolio {
-    margin: 3rem 2rem;
-    padding: 3rem 1rem;
-}
 
 #portfolio h2 {    
     text-transform: uppercase;
@@ -331,7 +342,7 @@ footer {
 
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
-    #portfolio {
+    .section {
         padding: 1rem 0.5rem;
     }
     #portfolio .product-tab {
@@ -362,3 +373,7 @@ footer {
         font-size: 1rem;
     }
 }
+
+
+/* ABOUT US */
+
