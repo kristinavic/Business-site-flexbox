@@ -179,6 +179,37 @@ footer {
     margin: 3rem 0;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.content .image, .content p {
+    flex: 1;
+}
+
+.content p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    color: #4A4947;
+    font-size: 1rem;    
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+}
+
+.content a {    
+}
+
+ h2 {    
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
     .section {
@@ -221,18 +252,19 @@ footer {
     font-size: 4rem;
 }
 
-.content {
+.welcome .welcome-content {
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-.content p {
+.welcome .welcome-content p {
     opacity: 0.8;
     padding: 0.25rem;
+    color:#FAF7F0;
 }
 
-.content a {    
+.welcome .welcome-content a {    
     color:#FAF7F0;
 }
 
@@ -284,12 +316,6 @@ footer {
 
 
 /* PORTFOLIO SECTION */
-
-
-#portfolio h2 {    
-    text-transform: uppercase;
-    font-weight: 400;
-}
 
 #portfolio .products {
     display: flex;
@@ -377,3 +403,25 @@ footer {
 
 /* ABOUT US */
 
+#about-us .content {
+    height: 30rem;
+}
+#about-us .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us img {
+    height: 20rem;
+    width: 30rem;
+    object-fit: cover;
+}
+
+#about-us p {
+    height: 20rem;
+    width: 40rem;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
