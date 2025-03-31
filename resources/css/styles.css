@@ -176,7 +176,21 @@ footer {
     font-weight: 200;
 }
 
+.content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 
+.content p {
+    opacity: 0.8;
+    padding: 0.25rem;
+}
+
+
+.content .image, .content p {
+    flex: 1; /* Each child takes up equal space */
+}
 
 /* WELCOME SECTION */
 
@@ -210,23 +224,18 @@ footer {
     font-size: 4rem;
 }
 
-.content {
+.welcome-content {
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-.content p {
+.welcome-content p {
     opacity: 0.8;
     padding: 0.25rem;
 }
 
-
-.content .image, .content p {
-    flex: 1; /* Each child takes up equal space */
-}
-
-.content a {    
+.welcome-content a {    
     color:#FAF7F0;
 }
 
@@ -252,11 +261,11 @@ footer {
         line-height: 1.2;
     }
 
-    .content p {
+    .welcome-content p {
         font-size: 0.8rem;
     }
 
-    .content {
+    .welcome-content {
         display: block;
         align-items: center;
         justify-items: center;
@@ -268,7 +277,7 @@ footer {
     .intro h1 {
         font-size: 3rem;
     }
-    .content p:first-child {
+    .welcome-content p:first-child {
         display: none;
     }
 }
@@ -465,3 +474,4 @@ footer .content {
     font-size: 0.625rem; /* 10px */
 }
 
+/* about me, tablet + mobile */
