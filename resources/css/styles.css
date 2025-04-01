@@ -473,21 +473,24 @@ footer {
     height: 50rem;
 }
 
-#contact h2 {
-    margin: 0 2rem 3rem 2rem;
-    padding: 0 1rem 1rem 1rem;
-}
 
 #contact .content {
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .contact-tab {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .contact-img {
-    display: block;
+    display: flex;
     justify-content: center;
 
 }
