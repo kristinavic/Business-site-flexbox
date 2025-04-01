@@ -430,6 +430,25 @@ footer {
 
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
+    #about-us .content {
+        padding: 0;
+    }
+
+    #about-us :not(:first-child) {
+        display: inline;
+    }
+    
+    #about-us .image {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    
+    #about-us .about-person {
+        justify-content: center;
+    }
+    #about-us p {
+        font-size: 0.9rem;
+    }
 }
 
 /* mobile breakpoint */
@@ -451,6 +470,7 @@ footer {
 
 /* tablet breakpoint */
 @media only screen and (max-width: 768px) {
+    
 }
 
 /* mobile breakpoint */
